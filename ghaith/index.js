@@ -1,8 +1,6 @@
-var array = [1, 2, 6, 4]
-const reducer = (accumulator, currentValue) => accumulator * currentValue;
-console.log(array.reduce(reducer))
+var taym = require('./task1_taym');
 
-var arr = array.map((num) =>{
-    return num + 1
-})
-console.log(arr)
+mul =taym.array1.reduce(taym.reducer);
+sum =taym.array1.reduce(taym.reducer1);
+console.log(mul);
+console.log(sum);
